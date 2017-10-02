@@ -33,3 +33,12 @@ val oneTwoThreeFour = oneTwo ::: threeFour
 
 println(oneTwo + " and " + threeFour + " were not mutated.")
 println("Thus,  " + oneTwoThreeFour + " is a new list.")
+
+// Use of cons
+val twoThree = List(2,3)
+val oneTwoThree2 = 1 :: twoThree
+
+println(oneTwoThree2)
+
+val oneTwoThreeFour1 = 1 :: 2 :: 3 :: 4 :: Nil
+println(oneTwoThreeFour1)
